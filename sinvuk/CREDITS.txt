@@ -1,0 +1,69 @@
+Sin Vuk Premium — credits and licenses
+=======================================
+
+FONTS
+-----
+Cormorant Garamond (variable, roman + italic)
+  Designed by Christian Thalmann (Catharsis Fonts)
+  License: SIL Open Font License 1.1
+  https://fonts.google.com/specimen/Cormorant+Garamond
+  Self-hosted, subset (Latin + Latin Extended) as woff2 in assets/fonts/
+
+Outfit (variable)
+  Designed by Rodrigo Fuenzalida, with original idea by Infoset team
+  License: SIL Open Font License 1.1
+  https://fonts.google.com/specimen/Outfit
+  Self-hosted, subset (Latin + Latin Extended) as woff2 in assets/fonts/
+
+
+IMAGES
+------
+All photographs are used under the Pexels License or the Unsplash License:
+free for commercial use, no permission required. Attribution is appreciated.
+
+hero.jpg  /  og-image.jpg
+  Black Audi RS6 Avant on a wet road at dusk
+  Photographer: Grégory Costa
+  Source: https://www.pexels.com/photo/black-car-on-an-asphalt-road-5733743/
+  License: Pexels License (https://www.pexels.com/license/)
+
+gallery-1.jpg
+  Hand washing a car window with a sponge and foam
+  Photographer: Tima Miroshnichenko
+  Source: https://www.pexels.com/photo/6873088/
+  License: Pexels License
+
+gallery-2.jpg
+  Hand-washing the windshield of a luxury car
+  Photographer: Tima Miroshnichenko
+  Source: https://www.pexels.com/photo/6872150/
+  License: Pexels License
+
+gallery-3.jpg
+  Wiping the paint of a black luxury car
+  Photographer: Tima Miroshnichenko
+  Source: https://www.pexels.com/photo/woman-in-black-sweater-wiping-the-black-car-6873129/
+  License: Pexels License
+
+gallery-4.jpg
+  Close-up of a windshield being cleaned
+  Source: https://www.pexels.com/photo/6872160/
+  License: Pexels License
+
+gallery-5.jpg
+  Man hand-washing a black Porsche
+  Source: https://unsplash.com/photos/photo-1607860108855-64acf2078ed9
+  Direct: https://images.unsplash.com/photo-1607860108855-64acf2078ed9
+  License: Unsplash License (https://unsplash.com/license)
+
+gallery-6.jpg
+  Car-wash bay, operator with a pressure wand beside a wet black car
+  Photographer: Tima Miroshnichenko
+  Source: https://www.pexels.com/photo/a-woman-standing-beside-the-black-car-and-holding-a-power-spray-6872144/
+  License: Pexels License
+
+
+THEME
+-----
+Sin Vuk Premium, a custom WordPress theme written for Auto Perionica Sin Vuk.
+License: GNU General Public License v2 or later.
