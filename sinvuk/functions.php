@@ -55,19 +55,20 @@ add_filter( 'language_attributes', 'sinvuk_language_attributes' );
  * Enqueue styles and scripts.
  */
 function sinvuk_assets() {
-	$ver = SINVUK_VERSION;
-	$path = get_template_directory() . '/style.css';
-	if ( file_exists( $path ) ) {
-		$ver = (string) filemtime( $path );
-	}
-	wp_enqueue_style( 'sinvuk-style', get_stylesheet_uri(), array(), $ver );
-	wp_enqueue_script(
-		'sinvuk-main',
-		get_template_directory_uri() . '/assets/js/main.js',
-		array(),
-		$ver,
-		true
-	);
+	$dir = get_template_directory();
+	$uri = get_template_directory_uri();
+
+	$style_path = $dir . '/style.css';
+	$style_ver  = file_exists( $style_path ) ? (string) filemtime( $style_path ) : SINVUK_VERSION;
+	wp_enqueue_style( 'sinvuk-style', get_stylesheet_uri(), array(), $style_ver );
+
+	$main_path = $dir . '/assets/js/main.js';
+	$main_ver  = file_exists( $main_path ) ? (string) filemtime( $main_path ) : SINVUK_VERSION;
+	wp_enqueue_script( 'sinvuk-main', $uri . '/assets/js/main.js', array(), $main_ver, true );
+
+	$lightbox_path = $dir . '/assets/js/lightbox.js';
+	$lightbox_ver  = file_exists( $lightbox_path ) ? (string) filemtime( $lightbox_path ) : SINVUK_VERSION;
+	wp_enqueue_script( 'sinvuk-lightbox', $uri . '/assets/js/lightbox.js', array(), $lightbox_ver, true );
 }
 add_action( 'wp_enqueue_scripts', 'sinvuk_assets' );
 
